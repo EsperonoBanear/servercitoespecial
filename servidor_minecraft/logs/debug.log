@@ -1,0 +1,149 @@
+[03Mar2025 05:39:42.656] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.2.26, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+[03Mar2025 05:39:42.659] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 11.0.26 by Ubuntu
+[03Mar2025 05:39:42.672] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[03Mar2025 05:39:42.680] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[03Mar2025 05:39:42.695] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,capability_inject_definalize,accesstransformer,runtimedistcleaner]
+[03Mar2025 05:39:42.703] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[03Mar2025 05:39:42.713] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[03Mar2025 05:39:42.737] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[03Mar2025 05:39:42.737] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[03Mar2025 05:39:42.738] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[03Mar2025 05:39:42.738] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[03Mar2025 05:39:42.742] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 28.2
+[03Mar2025 05:39:42.743] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 28.2 loading
+[03Mar2025 05:39:42.743] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 4.1.0+62+5bfa59b
+[03Mar2025 05:39:42.743] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[03Mar2025 05:39:42.744] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 1.0.5+4+02b7b69
+[03Mar2025 05:39:42.744] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 1.0.0+54+3f83a9e
+[03Mar2025 05:39:42.744] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[03Mar2025 05:39:42.746] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 1.0.0+4+e6fed88
+[03Mar2025 05:39:42.746] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 1.5.0+6+478760f
+[03Mar2025 05:39:42.747] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[03Mar2025 05:39:42.847] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03Mar2025 05:39:42.848] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[03Mar2025 05:39:42.848] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[03Mar2025 05:39:42.855] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[03Mar2025 05:39:42.856] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[03Mar2025 05:39:42.856] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[03Mar2025 05:39:42.857] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /workspaces/servercitoespecial/servidor_minecraft
+[03Mar2025 05:39:42.858] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/servercitoespecial/servidor_minecraft
+[03Mar2025 05:39:42.858] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making MODSDIR directory : /workspaces/servercitoespecial/servidor_minecraft/mods
+[03Mar2025 05:39:42.858] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created MODSDIR directory : /workspaces/servercitoespecial/servidor_minecraft/mods
+[03Mar2025 05:39:42.858] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/servercitoespecial/servidor_minecraft/mods
+[03Mar2025 05:39:42.859] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making CONFIGDIR directory : /workspaces/servercitoespecial/servidor_minecraft/config
+[03Mar2025 05:39:42.859] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created CONFIGDIR directory : /workspaces/servercitoespecial/servidor_minecraft/config
+[03Mar2025 05:39:42.859] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/servercitoespecial/servidor_minecraft/config
+[03Mar2025 05:39:42.859] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/servercitoespecial/servidor_minecraft/config/fml.toml
+[03Mar2025 05:39:42.859] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[03Mar2025 05:39:42.886] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/servercitoespecial/servidor_minecraft/config/fml.toml is not correct. Correcting
+[03Mar2025 05:39:42.890] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[03Mar2025 05:39:42.893] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
+[03Mar2025 05:39:42.893] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: com.electronwill.nightconfig.core.io.ParsingException: Invalid TOML data: entry "[maxThreads]" defined twice in its table.
+[03Mar2025 05:39:42.894] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.checkDuplicateKey(TableParser.java:88)
+[03Mar2025 05:39:42.895] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:59)
+[03Mar2025 05:39:42.895] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:44)
+[03Mar2025 05:39:42.895] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[03Mar2025 05:39:42.896] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[03Mar2025 05:39:42.896] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[03Mar2025 05:39:42.896] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making default config directory directory : /workspaces/servercitoespecial/servidor_minecraft/defaultconfigs
+[03Mar2025 05:39:42.897] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created default config directory directory : /workspaces/servercitoespecial/servidor_minecraft/defaultconfigs
+[03Mar2025 05:39:42.897] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[03Mar2025 05:39:42.897] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[03Mar2025 05:39:42.897] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[03Mar2025 05:39:42.897] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[03Mar2025 05:39:42.897] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[03Mar2025 05:39:42.903] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.14.4' MCP Version: '20190829.143755' Forge Version: '28.2.26' Forge group: 'net.minecraftforge'
+[03Mar2025 05:39:42.904] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path /workspaces/servercitoespecial/servidor_minecraft/libraries/org/ow2/asm/asm/6.2/asm-6.2.jar
+[03Mar2025 05:39:42.904] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path /workspaces/servercitoespecial/servidor_minecraft/libraries
+[03Mar2025 05:39:42.904] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-universal.jar is present
+[03Mar2025 05:39:42.905] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraft/server/1.14.4-20190829.143755/server-1.14.4-20190829.143755-srg.jar is present
+[03Mar2025 05:39:42.905] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraft/server/1.14.4/server-1.14.4-extra-stable.jar is present
+[03Mar2025 05:39:42.905] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-server.jar is present
+[03Mar2025 05:39:42.907] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[03Mar2025 05:39:42.908] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-universal.jar
+[03Mar2025 05:39:42.909] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-universal.jar to languageloader classloader
+[03Mar2025 05:39:42.948] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[03Mar2025 05:39:42.948] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 28.2
+[03Mar2025 05:39:42.950] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[03Mar2025 05:39:42.952] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[03Mar2025 05:39:42.953] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[03Mar2025 05:39:42.953] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[03Mar2025 05:39:42.954] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[03Mar2025 05:39:42.954] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[03Mar2025 05:39:42.955] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[03Mar2025 05:39:42.976] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[03Mar2025 05:39:42.993] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[03Mar2025 05:39:43.010] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-universal.jar
+[03Mar2025 05:39:43.036] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.14.4-28.2.26-universal.jar with {forge} mods - versions {28.2.26}
+[03Mar2025 05:39:43.036] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-universal.jar with language javafml
+[03Mar2025 05:39:43.061] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[03Mar2025 05:39:43.062] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[03Mar2025 05:39:43.062] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-server.jar
+[03Mar2025 05:39:43.064] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.14.4-28.2.26-server.jar with {minecraft} mods - versions {1.14.4}
+[03Mar2025 05:39:43.064] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/servercitoespecial/servidor_minecraft/libraries/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-server.jar with language minecraft
+[03Mar2025 05:39:43.070] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory requirements
+[03Mar2025 05:39:43.071] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[03Mar2025 05:39:43.192] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[03Mar2025 05:39:43.431] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[03Mar2025 05:39:43.431] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[03Mar2025 05:39:43.433] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[03Mar2025 05:39:43.433] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[03Mar2025 05:39:43.434] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[03Mar2025 05:39:43.625] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[03Mar2025 05:39:43.630] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7923f5b3 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[03Mar2025 05:39:43.631] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@11a7ba62 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[03Mar2025 05:39:43.631] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@340b7ef6 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[03Mar2025 05:39:43.632] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@30404dba to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[03Mar2025 05:39:43.632] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6050462a to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[03Mar2025 05:39:43.632] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4c0884e8 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[03Mar2025 05:39:43.632] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[03Mar2025 05:39:43.640] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[03Mar2025 05:39:43.711] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.RuntimeException: java.lang.UnsupportedOperationException
+[03Mar2025 05:39:43.712] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:39)
+[03Mar2025 05:39:43.713] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[03Mar2025 05:39:43.713] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[03Mar2025 05:39:43.714] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+[03Mar2025 05:39:43.714] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+[03Mar2025 05:39:43.715] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[03Mar2025 05:39:43.716] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[03Mar2025 05:39:43.716] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[03Mar2025 05:39:43.717] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: Caused by: java.lang.UnsupportedOperationException
+[03Mar2025 05:39:43.717] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassVisitor.visitNestMemberExperimental(ClassVisitor.java:248)
+[03Mar2025 05:39:43.718] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:651)
+[03Mar2025 05:39:43.718] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[03Mar2025 05:39:43.719] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[03Mar2025 05:39:43.719] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.access$100(TransformerClassWriter.java:35)
+[03Mar2025 05:39:43.720] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:129)
+[03Mar2025 05:39:43.720] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:525)
+[03Mar2025 05:39:43.721] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[03Mar2025 05:39:43.721] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[03Mar2025 05:39:43.722] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.access$100(TransformerClassWriter.java:35)
+[03Mar2025 05:39:43.722] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:129)
+[03Mar2025 05:39:43.723] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:525)
+[03Mar2025 05:39:43.723] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[03Mar2025 05:39:43.724] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[03Mar2025 05:39:43.724] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.access$100(TransformerClassWriter.java:35)
+[03Mar2025 05:39:43.725] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter$SuperCollectingVisitor.visit(TransformerClassWriter.java:129)
+[03Mar2025 05:39:43.725] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:525)
+[03Mar2025 05:39:43.726] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.ClassReader.accept(ClassReader.java:391)
+[03Mar2025 05:39:43.726] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:83)
+[03Mar2025 05:39:43.726] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.getSupers(TransformerClassWriter.java:54)
+[03Mar2025 05:39:43.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformerClassWriter.getCommonSuperClass(TransformerClassWriter.java:99)
+[03Mar2025 05:39:43.727] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.SymbolTable.addMergedType(SymbolTable.java:1209)
+[03Mar2025 05:39:43.728] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.Frame.merge(Frame.java:1293)
+[03Mar2025 05:39:43.728] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.Frame.merge(Frame.java:1175)
+[03Mar2025 05:39:43.729] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.MethodWriter.computeAllFrames(MethodWriter.java:1604)
+[03Mar2025 05:39:43.729] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1540)
+[03Mar2025 05:39:43.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:807)
+[03Mar2025 05:39:43.730] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:687)
+[03Mar2025 05:39:43.731] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:436)
+[03Mar2025 05:39:43.731] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:121)
+[03Mar2025 05:39:43.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:241)
+[03Mar2025 05:39:43.732] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:128)
+[03Mar2025 05:39:43.733] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[03Mar2025 05:39:43.734] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[03Mar2025 05:39:43.734] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.Class.forName0(Native Method)
+[03Mar2025 05:39:43.735] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at java.base/java.lang.Class.forName(Class.java:398)
+[03Mar2025 05:39:43.735] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[03Mar2025 05:39:43.736] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[03Mar2025 05:39:43.737] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1059]: 	... 7 more
